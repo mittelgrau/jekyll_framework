@@ -1,0 +1,3 @@
+[submodule "src/sass_framework"]
+	path = src/sass_framework
+	url = git@github.com:mittelgrau/sass_framework.git
