@@ -50,3 +50,6 @@ exclude:
    - gulpfile.js
    - yarn.lock
    - package.json
+   - mix.js.maps
+   - webpack.mix.js
+   - mix-manifest.js
