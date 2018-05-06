@@ -1,0 +1,16 @@
+<nav>
+    <ul>
+        {% for pages in site.pages %} {% if pages.url contains "feed.xml" %}
+         {% continue %}
+        {% elsif pages.url == '/' %} {% continue%}
+        {% elsif pages.permalink contains page.url %}
+        <li>
+            <a href="{{ pages.permalink }}" class="page-link current"> {{ pages.title }}</a>
+        </li>
+        {% else %}
+        <li>
+            <a href="{{ pages.permalink }}" class="page-link"> {{ pages.title }}</a>
+        </li>
+        {% endif %} {% endfor %}
+    </ul>
+</nav>
