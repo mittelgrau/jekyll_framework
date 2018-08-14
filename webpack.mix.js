@@ -16,6 +16,10 @@ mix.sass('src/sass_framework/main.scss', 'assets/main.css')
     processCssUrls: false
   });
 
+mix.options({
+  postCss: true
+});
+
 mix.babel([
       'src/js/lib/*.js',
       'src/js/main.js'
