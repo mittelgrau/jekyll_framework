@@ -16,9 +16,9 @@
 
 `hotel add http://127.0.0.1:4000 --name PROJECTNAME`
 
-#### Run webpack
+#### Run parcel
 
-`npm run watchmin `
+`yarn run dev`
 
 ## sass Framework
 
@@ -29,11 +29,11 @@
 ├── _lib
 |   └──breakpoint
 |   └── modularScale
-|   
+|
 ├── _pages
 |   ├── _about.scss
 |   └── _home.scss
-|  
+|
 ├── _sections
 |   ├── _footer.scss
 |   └── _header.scss

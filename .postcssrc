@@ -1,7 +1,25 @@
 {   
-    "mdoules" : true,
+    "modules" : false,
     "plugins": {
         "autoprefixer": {
+            
+        },
+        "postcss-vertical-rhythm": {
+
+        },
+        "rucksack-css" : {
+
+        },
+        "cssnano": {
+
+        },
+        "css-mqpacker": {
+
+        },
+        "postcss-center": {
+
+        },
+        "postcss-fixes": {
             
         }
     }
